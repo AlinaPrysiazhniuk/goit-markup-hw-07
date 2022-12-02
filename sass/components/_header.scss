@@ -72,6 +72,10 @@
 
   & .header-nav-link.current {
     color: var(--accent-color);
+
+    &:after {
+      display: block;
+    }
   }
 }
 
@@ -136,9 +140,6 @@
   }
 }
 
-.header-nav-link.current::after {
-  display: block;
-}
 
 .header-nav-item,
 .header-contacts-item {
