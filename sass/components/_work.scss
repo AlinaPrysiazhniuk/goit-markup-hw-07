@@ -1,0 +1,51 @@
+.work-item {
+  list-style-type: none;
+}
+
+.work {
+  padding-top: 0;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-tittle,
+.team-tittle,
+.team-name,
+.team-position {
+  text-align: center;
+}
+
+.work-tittle,
+.team-tittle {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--first-color);
+}
+
+.work-tittle {
+  margin-bottom: 50px;
+}
+
+.work-item {
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+
+  background-color: var(--work-box-text);
+}
