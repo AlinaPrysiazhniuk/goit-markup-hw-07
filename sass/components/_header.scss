@@ -4,37 +4,9 @@
   border-bottom-width: 1px;
 }
 
-.header-nav-logo,
 .header-nav-link,
-.header-contacts-link,
-.footer-logo-begin,
-.footer-contacts-address,
-.footer-contacts-link,
-.portfolio-projects-link {
+.header-contacts-link {
   text-decoration: none;
-}
-
-.header-nav-logo,
-.footer-logo-begin {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.header-nav-logo,
-.nav-logo,
-.footer-logo-begin {
-  font-family: Raleway, sans-serif;
-  color: var(--accent-color);
-}
-
-.nav-logo {
-  color: var(--nav-logo-color);
-  letter-spacing: 0.03em;
 }
 
 .header-nav-link,
@@ -51,7 +23,6 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--first-color);
-
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -59,6 +30,8 @@
 }
 
 .header-contacts-link {
+  display: flex;
+  align-items: center;
   color: var(--text-color);
   &:hover,
   &:focus {
@@ -68,19 +41,14 @@
 
 .header-nav-list {
   display: flex;
+  gap: 50px;
   margin-left: 93px;
-
   & .header-nav-link.current {
     color: var(--accent-color);
-
     &:after {
       display: block;
     }
   }
-}
-
-.header-nav-list {
-  gap: 50px;
 }
 
 .header-nav-list .header-nav-item:last-child {
@@ -95,11 +63,6 @@
 
 .header-contacts-list .header-contacts-item + .header-contacts-item {
   margin-left: 30px;
-}
-
-.header-contacts-link {
-  display: flex;
-  align-items: center;
 }
 
 .contacts-icon {
@@ -123,23 +86,19 @@
 
 .header-nav-link {
   position: relative;
-
   &:after {
     content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
-
     display: block;
     width: 100%;
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
-
     display: none;
   }
 }
-
 
 .header-nav-item,
 .header-contacts-item {

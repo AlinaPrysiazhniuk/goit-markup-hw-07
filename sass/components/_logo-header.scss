@@ -1,0 +1,24 @@
+.header-nav-logo {
+  text-decoration: none;
+}
+
+.header-nav-logo{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-nav-logo,
+.nav-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+}
+
+.nav-logo {
+  color: var(--nav-logo-color);
+  letter-spacing: 0.03em;
+}
