@@ -1,9 +1,14 @@
-.features-list {
+.features__container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.features-item-icon {
+.features__meta {
   height: 120px;
   padding-top: 25px;
   padding-right: 100px;
@@ -14,11 +19,11 @@
   border-radius: 4px;
 }
 
-.features-tittle {
+.features__tittle {
   opacity: 0;
 }
 
-.features-subtitle {
+.features__subtitle {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -26,12 +31,12 @@
   margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-color);
 }
 
-.features-item {
+.features__item {
   list-style-type: none;
 }
