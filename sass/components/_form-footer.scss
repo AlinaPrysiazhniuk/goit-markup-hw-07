@@ -1,4 +1,4 @@
-.input-send {
+.send__action {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -7,7 +7,7 @@
   color: var(--accent-color-text);
 }
 
-.input-wrapper-send {
+.action__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,11 +15,11 @@
   margin-top: 20px;
 }
 
-.send-icon {
+.form__icon {
   fill: var(--accent-color-text);
 }
 
-.send-button {
+.form__button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@
   }
 }
 
-.send-email::placeholder {
+.form__email::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -52,12 +52,12 @@
   transition: color var(--animation);
 }
 
-.send-email:hover::placeholder,
-.send-email:focus::placeholder {
+.form__email:hover::placeholder,
+.form__email:focus::placeholder {
   color: var(--accent-color-text);
 }
 
-.send-email {
+.form__email {
   width: 358px;
   padding-top: 15px;
   padding-bottom: 15px;

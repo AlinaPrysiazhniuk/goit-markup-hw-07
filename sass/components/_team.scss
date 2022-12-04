@@ -1,4 +1,4 @@
-.team_container {
+.team__container {
   margin-left: auto;
   margin-right: auto;
 }
@@ -6,6 +6,7 @@
 .team {
   background-color: var(--team-background-color);
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team__item {
@@ -55,11 +56,9 @@
 .soc {
   display: flex;
   justify-content: center;
-}
-
-.team__soc {
   gap: 10px;
 }
+
 
 .soc__item {
   width: 44px;
@@ -81,7 +80,7 @@
   }
 }
 
-.soc__icon {
+.soc__icon--team {
   fill: var(--icon-first-color);
   transition: fill var(--animation);
   .soc__link:hover &,
