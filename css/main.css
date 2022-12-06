@@ -145,10 +145,10 @@ body {
   gap: 50px;
   margin-left: 93px;
 }
-.menu__header .menu__link.current {
+.menu__header .menu__link--current {
   color: var(--accent-color);
 }
-.menu__header .menu__link.current:after {
+.menu__header .menu__link--current:after {
   display: block;
 }
 
@@ -857,12 +857,12 @@ body {
   text-decoration: none;
 }
 
-.information__logo--begin {
+.logo--begin {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
 }
 
-.information__logo--end {
+.logo--footer {
   color: var(--accent-color-text);
 }
 
